@@ -1,0 +1,20 @@
+
+export const suggestions: string[] = [
+    "Annual Raise Percentage",
+    "Annual Loss Percentage",
+    "Payroll Bonus",
+    "401k costs",
+    "Bonus payout Month",
+    "Stripe new Customers",
+    "Stripe churned Customers",
+    "Forecast Start",
+    "Dental and Vision Insurance",
+    "Weekdays in Month",
+    "Contractors",
+    "Workers",
+    "Shipments",
+    "Development",
+    "Healthcare Insurance",
+    "Safety Equipment",
+    "Utility Bills",
+  ];
