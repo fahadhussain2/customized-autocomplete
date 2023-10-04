@@ -9,9 +9,13 @@ function App() {
       <p className="mx-auto md:w-[600px] w-[90vw] text-gray-200 font-medium text-center">
         Following are the options that will appear in suggestions:{" "}
       </p>
-      <p className="mx-auto md:w-[600px] w-[90vw] mb-2 text-gray-200">
-        {suggestions.join(", ")}
-      </p>
+      <ul className="columns-1 sm:columns-2 mx-auto my-2 md:w-[500px] w-[90vw] text-gray-200">
+        {
+          suggestions.map((suggestion, index) => {
+            return <li key={index}>{suggestion}</li>
+          })
+        }
+      </ul>
       <PryComponent />
     </div>
   );
